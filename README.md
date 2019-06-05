@@ -1,6 +1,7 @@
  ``` java
  
- // example of an enumeration
+ //   example of an enumeration
+ 
 public enum Operation {    
         ADD {     
            public int eval(int arg1, int arg2) { 

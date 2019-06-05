@@ -1,4 +1,4 @@
-``` java
+ ``` java
 public enum Operation {    
         ADD {     
            public int eval(int arg1, int arg2) { 
@@ -10,7 +10,8 @@ public enum Operation {
            public int eval(int arg1, int arg2) { 
                return arg1 * arg2; }    },    
         DIVIDE {       
-           public int eval(int arg1, int arg2) { return arg1 / arg2; }    };    
+           public int eval(int arg1, int arg2) { 
+               return arg1 / arg2; }    };    
 
        public abstract int eval(int arg1, int arg2); 
        
